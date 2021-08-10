@@ -1,0 +1,24 @@
+{
+  "name": "resizer",
+  "version": "1.0.0",
+  "description": "Lambda function to resize images on the fly using Sharp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanolaru/imageresizer.git"
+  },
+  "author": "Stefan Olaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanolaru/imageresizer/issues"
+  },
+  "homepage": "https://github.com/stefanolaru/imageresizer#readme",
+  "dependencies": {
+    "mime": "^2.5.2",
+    "sharp": "^0.28.3",
+    "stream": "0.0.2"
+  }
+}
